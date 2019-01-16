@@ -406,7 +406,7 @@ class MfcProcessor(DataProcessor):
         return examples
 
     def get_labels(self):
-        return ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+        return ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 
 def convert_single_example(ex_index, example, label_list, max_seq_length,
